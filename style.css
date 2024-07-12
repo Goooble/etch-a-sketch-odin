@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+button{
+    margin: 20px;
+}
+.container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container div{
+    box-sizing: border-box;
+    width: 31.25px;
+    height: 31.25px;
+    background-color: aquamarine;
+    border: 1px solid cadetblue;
+    flex: 1 1 auto;
+}
+
+/* math */
+/* flexbox */
