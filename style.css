@@ -7,7 +7,7 @@ button{
 .container {
     display: flex;
     width: 500px;
-    height: 500px;
+    max-height: 500px;
     margin: auto;
     flex-wrap: wrap;
     justify-content: center;
