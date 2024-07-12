@@ -1,10 +1,9 @@
 const container = document.querySelector('.container');
 //pixel generation
-const pixel = [];
 let numberOfPixels = 16*16;
 for(let i = 0; i <numberOfPixels; i++){
-    pixel[i] = document.createElement('div');;
-    container.appendChild(pixel[i]);
+    pixel = document.createElement('div');;
+    container.appendChild(pixel);
 }
 //color changer
 container.addEventListener('mouseover', changeColor);
