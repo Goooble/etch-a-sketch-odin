@@ -1,25 +1,15 @@
-body{
-    text-align: center;
+body {
+  text-align: center;
 }
-button{
-    margin: 20px;
+button {
+  margin: 20px;
 }
 .container {
-    display: flex;
-    width: 500px;
-    max-height: 500px;
-    margin: auto;
-    flex-wrap: wrap;
-    justify-content: center;
+  font-size: 10px;
+  display: flex;
+  width: 480px;
 }
-.container div{
-    box-sizing: border-box;
-    width: 31.25px;
-    height: 31.25px;
-    background-color: aquamarine;
-    border: 1px solid cadetblue;
-    flex: 1 1 auto;
+.container div {
+  background-color: aquamarine;
+  border: 1px solid cadetblue;
 }
-
-/* math */
-/* flexbox */
