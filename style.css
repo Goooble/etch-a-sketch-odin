@@ -7,9 +7,13 @@ button {
 .container {
   font-size: 10px;
   display: flex;
+  flex-wrap: wrap;
+  margin: auto;
   width: 480px;
+  height: 480px;
 }
 .container div {
+  flex: 0 1 auto;
+  box-sizing: border-box;
   background-color: aquamarine;
-  border: 1px solid cadetblue;
 }
